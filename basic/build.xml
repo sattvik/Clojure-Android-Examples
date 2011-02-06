@@ -72,6 +72,12 @@
     <property name="clojure.out.classes.dir" value="${clojure.out.absolute.dir}/classes" />
     <property name="clojure.out.classes.absolute.dir" location="${clojure.out.classes.dir}" />
 
+    <!-- Ensure that the Java source directory exists since Git does not
+	 preserve empty directories -->
+    <target name="-pre-build">
+        <mkdir dir="${source.absolute.dir}"/>
+    </target>
+
     <target name="-clojure-dirs">
         <mkdir dir="${clojure.out.classes.absolute.dir}" />
     </target>
@@ -88,11 +94,12 @@
 		<fileset dir="${jar.libs.dir}" includes="*.jar" />
 		<pathelement path="${out.classes.absolute.dir}"/>
 	    </classpath>
+	    <!-- Add Clojure namespaces here. -->
 	    <arg value="com.sattvik.android.clojure.basic.ClojureBrowser"/>
 	</java>
     </target>
 
-    <target name="-post-compile" depends="-clojure-compile"/>
+    <target name="compile" depends="android_rules.compile,-clojure-compile"/>
 
 
     <!-- Execute the Android Setup task that will setup some properties
