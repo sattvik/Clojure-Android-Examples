@@ -1,3 +1,37 @@
+Examples for *Creating Android applications with Clojure*
+=========================================================
+
+This repository contains the example code to illustrate the techniques
+described in *Creating Android applications with Clojure*.  You can use these
+examples as templates for your own projects
+
+Contents
+--------
+
+These examples are separated into the following directories:
+
+* `basic`, corresponding to the basic configuration described in
+  *[Creating Android applications with Clojure, part two][p2]*
+
+
+[p2]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure-p2
+
+
+Instructions
+------------
+
+In order to use these examples, you must have installed the Android SDK and
+installed the necessary components.  These examples were developed using
+version 9 of the SDK (Android 2.3 ‘Gingerbread’).  For information on how
+to accomplish this, please consult the [Android SDK documentation][sdk].
+
+[sdk]: http://developer.android.com/sdk/index.html
+
+You will need to copy the `local.properties.example` to `local.properties` in
+each project directory and modify the line starting with `sdk.dir` to point to
+where the Android SDK is installed.
+
+
 License
 -------
 
@@ -48,7 +82,7 @@ You must not remove this notice, or any other, from this software.
 
 Copyright © 2000-2005 INRIA, France Telecom
 All rights reserved.
-    
+
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
