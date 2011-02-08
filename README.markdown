@@ -14,7 +14,7 @@ These examples are separated into the following directories:
   *[Creating Android applications with Clojure, part two][p2]*
 
 
-[p2]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure-p2
+[p2]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure--building-with-ant
 
 
 Instructions
