@@ -11,7 +11,7 @@ Contents
 These examples are separated into the following directories:
 
 * `basic`, corresponding to the basic configuration described in
-  *[Creating Android applications with Clojure, part two][p2]*
+  *[Creating Android applications with Clojure: Building with Ant][p2]*
 
 
 [p2]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure--building-with-ant
