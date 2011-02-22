@@ -12,9 +12,13 @@ These examples are separated into the following directories:
 
 * `basic`, corresponding to the basic configuration described in
   *[Creating Android applications with Clojure: Building with Ant][p2]*
+* `slimmed`, corresponding to the slimmed configuration described in
+  *[Creating Android applications with Clojure: Slimming things down with
+  ProGuard][p3]*
 
 
 [p2]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure--building-with-ant
+[p3]: http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure--slimming-things-down-with-proguard
 
 
 Instructions
@@ -22,7 +26,7 @@ Instructions
 
 In order to use these examples, you must have installed the Android SDK and
 installed the necessary components.  These examples were developed using
-version 9 of the SDK (Android 2.3 ‘Gingerbread’).  For information on how
+version 8 of the SDK (Android 2.2 ‘FroYo’).  For information on how
 to accomplish this, please consult the [Android SDK documentation][sdk].
 
 [sdk]: http://developer.android.com/sdk/index.html
